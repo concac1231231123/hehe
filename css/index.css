@@ -1,5 +1,8 @@
 /* normalize css */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
 html {
   font-family: "Poppins", sans-serif;
   background-color: transparent;
@@ -8,6 +11,7 @@ html {
 * {
   box-sizing: border-box;
   background-color: transparent;
+<<<<<<< HEAD
 }
 
 body,
@@ -15,6 +19,14 @@ p,
 ul,
 h1 {
   margin: 0;
+=======
+  user-select: none;
+}
+
+body, p, ul, h1, td, th {
+  margin: 0;
+  padding: 0;
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
 }
 
 a {
@@ -32,12 +44,20 @@ input,
 select,
 textarea {
   color: inherit;
+<<<<<<< HEAD
   /* 1 */
   font: inherit;
   /* 2 */
   margin: 0;
   /* 3 */
   outline: none;
+=======
+  font: inherit;
+  margin: 0;
+  outline: none;
+  border: none;
+  line-height: normal;
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
 }
 
 button {
@@ -50,12 +70,22 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+<<<<<<< HEAD
 td,
 th,
 p,
 ul,
 h1 {
   padding: 0;
+=======
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
 }
 
 ::-webkit-scrollbar {
@@ -133,6 +163,22 @@ img {
   flex-direction: column;
   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
 }
+<<<<<<< HEAD
+=======
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: calc(100vw * 9 / 16);
+  min-height: 100vh;
+  min-width: calc(100vh * 16 / 9);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -999;
+  pointer-events: none;
+}
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
 
 
 
@@ -224,6 +270,10 @@ img {
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
 .flex.wrap {
   flex-wrap: wrap;
 }
@@ -689,6 +739,7 @@ img {
   opacity: 1;
 }
 
+<<<<<<< HEAD
 #backgroundVideo {
   position: fixed;
   top: 0;
@@ -698,3 +749,6 @@ img {
   object-fit: cover;
   z-index: -1;
 }
+=======
+
+>>>>>>> 89596a34f7987a541eb0f089dbdadbab2ba08cc1
